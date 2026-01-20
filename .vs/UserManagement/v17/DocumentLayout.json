@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\UserManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|solutionrelative:usermanagement api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|solutionrelative:usermanagement api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|solutionrelative:usermanagement api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|solutionrelative:usermanagement api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|solutionrelative:usermanagement api\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|solutionrelative:usermanagement api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|solutionrelative:usermanagement api\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\migrations\\20260118170616_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|solutionrelative:usermanagement api\\migrations\\20260118170616_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|solutionrelative:usermanagement api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEF5FF34-EAA2-4EED-88F0-C417B5917457}|UserManagement API\\UserManagement API.csproj|c:\\users\\hp\\source\\repos\\usermanagement\\usermanagement api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,19 +75,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "UserManagement API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "UserManagement API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAhwFEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:21:44.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserManagement API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Models\\User.cs",
+              "RelativeToolTip": "UserManagement API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:00:57.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "UserManagement API\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Services\\UserService.cs",
               "RelativeToolTip": "UserManagement API\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T19:09:23.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T19:09:23.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "UserManagement API\\Services\\IUserService.cs",
@@ -87,12 +119,11 @@
               "RelativeToolTip": "UserManagement API\\Services\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T19:08:13.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T19:08:13.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "UserManagement API\\Repositories\\UserRepository.cs",
@@ -100,12 +131,11 @@
               "RelativeToolTip": "UserManagement API\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAiwCIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T17:26:24.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T17:26:24.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "UserManagement API\\Interfaces\\IUserRepository.cs",
@@ -113,12 +143,11 @@
               "RelativeToolTip": "UserManagement API\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T17:14:54.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T17:14:54.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "20260118170616_InitialMigration.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Migrations\\20260118170616_InitialMigration.cs",
               "RelativeDocumentMoniker": "UserManagement API\\Migrations\\20260118170616_InitialMigration.cs",
@@ -126,25 +155,24 @@
               "RelativeToolTip": "UserManagement API\\Migrations\\20260118170616_InitialMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T17:06:17.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T17:06:17.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Program.cs",
               "RelativeDocumentMoniker": "UserManagement API\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Program.cs",
               "RelativeToolTip": "UserManagement API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-18T17:05:29.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\appsettings.json",
               "RelativeDocumentMoniker": "UserManagement API\\appsettings.json",
@@ -152,12 +180,11 @@
               "RelativeToolTip": "UserManagement API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-18T16:59:34.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T16:59:34.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UserManagement\\UserManagement API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "UserManagement API\\Data\\AppDbContext.cs",
@@ -165,8 +192,7 @@
               "RelativeToolTip": "UserManagement API\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:55:50.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T16:55:50.138Z"
             }
           ]
         },
