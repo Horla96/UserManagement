@@ -1,4 +1,6 @@
-﻿using UserManagement_API.Interfaces;
+﻿using UserManagement_API.DTOs.Request;
+using UserManagement_API.DTOs.Response;
+using UserManagement_API.Interfaces;
 using UserManagement_API.Models;
 
 namespace UserManagement_API.Services
@@ -12,42 +14,88 @@ namespace UserManagement_API.Services
             _repository = repository;
         }
 
-        public async Task CreateUserAsync(User user)
+        public async Task<UserResponseDto> CreateUserAsync(CreateUserRequestDto request)
         {
-             await _repository.AddAsync(user);
+            var user = new User
+            {
+                FirstName = request.FirstName,
+                LastName = request.LastName,
+                Email = request.Email,
+                Password = request.Password,
+                CreatedAt = DateTime.UtcNow
+            };
+
+            await _repository.AddAsync(user);
+
+            return new UserResponseDto
+            {
+                Id = user.Id,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                CreatedAt = user.CreatedAt,
+            };
         }
 
-        public async Task DeleteUserAsync(int id)
+        public async Task DeleteUserAsync(long id)
         {
             var user = await _repository.GetByIdAsync(id);
+
             if (user == null)
+            {
                 throw new KeyNotFoundException("User not found");
+            }
 
             await _repository.DeleteAsync(user);
         }
 
-        public async Task<User> GetUserByIdAsync(int id)
+        public async Task<UserResponseDto> GetUserByIdAsync(long id)
         {
-            return await _repository.GetByIdAsync(id);
+            var user = await _repository.GetByIdAsync(id);
+
+            if (user == null)
+            {
+                return null;
+            }
+
+            return new UserResponseDto
+            {
+                Id = user.Id,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                CreatedAt = user.CreatedAt
+            };
         }
 
-        public async Task<IEnumerable<User>> GetUsersAsync()
+        public async Task<IEnumerable<UserResponseDto>> GetUsersAsync()
         {
-            return await _repository.GetAllAsync();
+            var users = await _repository.GetAllAsync();
+
+            return users.Select(user => new UserResponseDto
+            {
+                Id = user.Id,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                CreatedAt = user.CreatedAt
+            });
         }
 
-        public async Task UpdateUserAsync(int id, User user)
+        public async Task UpdateUserAsync(long id, UpdateUserRequestDto request)
         {
-            var existingUser = await _repository.GetByIdAsync(id);
-            if (existingUser == null)
+            var user = await _repository.GetByIdAsync(id);
+
+            if (user == null)
+            {
                 throw new KeyNotFoundException("User not found");
+            }
 
+            user.FirstName = request.FirstName;
+            user.LastName = request.LastName;
+            user.Email = request.Email;
 
-            existingUser.FirstName = user.FirstName;
-            existingUser.LastName = user.LastName;
-            existingUser.Email = user.Email;
-
-            await _repository.UpdateAsync(existingUser);
+            await _repository.UpdateAsync(user);
         }
     }
 }

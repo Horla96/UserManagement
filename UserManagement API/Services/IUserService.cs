@@ -1,13 +1,14 @@
-﻿using UserManagement_API.Models;
+﻿using UserManagement_API.DTOs.Request;
+using UserManagement_API.DTOs.Response;
 
 namespace UserManagement_API.Services
 {
     public interface IUserService
     {
-        Task<IEnumerable<User>> GetUsersAsync();
-        Task<User> GetUserByIdAsync(int id);
-        Task CreateUserAsync(User user);
-        Task UpdateUserAsync(int id, User user);
-        Task DeleteUserAsync(int id);
+        Task<IEnumerable<UserResponseDto>> GetUsersAsync();
+        Task<UserResponseDto> GetUserByIdAsync(long id);
+        Task<UserResponseDto> CreateUserAsync(CreateUserRequestDto request);
+        Task UpdateUserAsync(long id, UpdateUserRequestDto request);
+        Task DeleteUserAsync(long id);
     }
 }

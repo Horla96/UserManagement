@@ -12,7 +12,7 @@ using UserManagement_API.Data;
 namespace UserManagement_API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260118170616_InitialMigration")]
+    [Migration("20260123112013_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -27,11 +27,11 @@ namespace UserManagement_API.Migrations
 
             modelBuilder.Entity("UserManagement_API.Models.User", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("bigint");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
