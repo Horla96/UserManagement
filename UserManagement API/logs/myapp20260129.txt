@@ -1,0 +1,240 @@
+2026-01-29 17:17:18.699 +01:00 [INF] Now listening on: https://localhost:7145
+2026-01-29 17:17:20.109 +01:00 [INF] Now listening on: http://localhost:5218
+2026-01-29 17:17:20.567 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-29 17:17:21.008 +01:00 [INF] Hosting environment: Development
+2026-01-29 17:17:21.187 +01:00 [INF] Content root path: C:\Users\HP\source\repos\UserManagement\UserManagement API
+2026-01-29 17:17:34.672 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger - null null
+2026-01-29 17:17:36.244 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger - 301 0 null 1636.098ms
+2026-01-29 17:17:36.314 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2026-01-29 17:17:36.599 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 284.2685ms
+2026-01-29 17:17:36.690 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/swagger-ui.css - null null
+2026-01-29 17:17:36.703 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.css - null null
+2026-01-29 17:17:36.713 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/swagger-ui-bundle.js - null null
+2026-01-29 17:17:36.713 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/swagger-ui-standalone-preset.js - null null
+2026-01-29 17:17:36.793 +01:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2026-01-29 17:17:36.798 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.css - 200 202 text/css 102.1188ms
+2026-01-29 17:17:36.817 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-29 17:17:36.821 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2026-01-29 17:17:36.817 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.js - null null
+2026-01-29 17:17:37.370 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 553.5209ms
+2026-01-29 17:17:37.380 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-01-29 17:17:37.464 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-01-29 17:17:37.472 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.js - 200 null application/javascript;charset=utf-8 655.6838ms
+2026-01-29 17:17:37.540 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/swagger-ui.css - 200 154948 text/css 850.076ms
+2026-01-29 17:17:37.540 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 826.6068ms
+2026-01-29 17:17:37.904 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-01-29 17:17:37.920 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/swagger-ui-bundle.js - 200 1466324 text/javascript 1206.7865ms
+2026-01-29 17:17:38.186 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1365.152ms
+2026-01-29 17:17:38.923 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2026-01-29 17:17:40.136 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1214.0933ms
+2026-01-29 17:17:58.575 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/Users - null null
+2026-01-29 17:17:58.822 +01:00 [INF] Executing endpoint 'UserManagement_API.Controllers.UsersController.GetAll (UserManagement API)'
+2026-01-29 17:17:59.322 +01:00 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[UserManagement_API.DTOs.Response.UserResponseDto]]] GetAll() on controller UserManagement_API.Controllers.UsersController (UserManagement API).
+2026-01-29 17:18:01.542 +01:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-01-29 17:18:01.582 +01:00 [INF] Fetching all users
+2026-01-29 17:18:05.698 +01:00 [INF] Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [Users] AS [u]
+2026-01-29 17:18:06.160 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagement_API.DTOs.Response.UserResponseDto, UserManagement API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-29 17:18:06.306 +01:00 [INF] Executed action UserManagement_API.Controllers.UsersController.GetAll (UserManagement API) in 6946.0368ms
+2026-01-29 17:18:06.335 +01:00 [INF] Executed endpoint 'UserManagement_API.Controllers.UsersController.GetAll (UserManagement API)'
+2026-01-29 17:18:06.356 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/Users - 200 null application/json; charset=utf-8 7783.4824ms
+2026-01-29 17:36:43.705 +01:00 [INF] Now listening on: https://localhost:7145
+2026-01-29 17:36:43.827 +01:00 [INF] Now listening on: http://localhost:5218
+2026-01-29 17:36:44.161 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-29 17:36:44.938 +01:00 [INF] Hosting environment: Development
+2026-01-29 17:36:44.946 +01:00 [INF] Content root path: C:\Users\HP\source\repos\UserManagement\UserManagement API
+2026-01-29 17:36:52.584 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2026-01-29 17:36:53.550 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 1001.8612ms
+2026-01-29 17:36:53.658 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-29 17:36:53.684 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.js - null null
+2026-01-29 17:36:53.715 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2026-01-29 17:36:54.042 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.js - 200 null application/javascript;charset=utf-8 358.4234ms
+2026-01-29 17:36:54.051 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 393.9077ms
+2026-01-29 17:36:54.455 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 740.8031ms
+2026-01-29 17:36:54.776 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2026-01-29 17:36:54.995 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 219.2371ms
+2026-01-29 17:37:14.263 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/Users/SignUp - application/json 96
+2026-01-29 17:37:14.299 +01:00 [INF] Executing endpoint 'UserManagement_API.Controllers.UsersController.Create (UserManagement API)'
+2026-01-29 17:37:14.525 +01:00 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagement_API.DTOs.Response.UserResponseDto]] Create(UserManagement_API.DTOs.Request.CreateUserRequestDto) on controller UserManagement_API.Controllers.UsersController (UserManagement API).
+2026-01-29 17:37:15.659 +01:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-01-29 17:37:15.991 +01:00 [INF] Creating user with email string
+2026-01-29 17:37:16.061 +01:00 [INF] Executed action UserManagement_API.Controllers.UsersController.Create (UserManagement API) in 1510.9764ms
+2026-01-29 17:37:16.069 +01:00 [INF] Executed endpoint 'UserManagement_API.Controllers.UsersController.Create (UserManagement API)'
+2026-01-29 17:37:16.089 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUserRequestDto -> User
+UserManagement_API.DTOs.Request.CreateUserRequestDto -> UserManagement_API.Models.User
+   at lambda_method11(Closure, Object, User, ResolutionContext)
+   at UserManagement_API.Services.UserService.CreateUserAsync(CreateUserRequestDto request) in C:\Users\HP\source\repos\UserManagement\UserManagement API\Services\UserService.cs:line 29
+   at UserManagement_API.Controllers.UsersController.Create(CreateUserRequestDto request) in C:\Users\HP\source\repos\UserManagement\UserManagement API\Controllers\UsersController.cs:line 48
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-29 17:37:16.270 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/Users/SignUp - 500 null text/plain; charset=utf-8 2006.8535ms
+2026-01-29 17:38:12.629 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/Users/SignUp - application/json 109
+2026-01-29 17:38:12.638 +01:00 [INF] Executing endpoint 'UserManagement_API.Controllers.UsersController.Create (UserManagement API)'
+2026-01-29 17:38:12.651 +01:00 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagement_API.DTOs.Response.UserResponseDto]] Create(UserManagement_API.DTOs.Request.CreateUserRequestDto) on controller UserManagement_API.Controllers.UsersController (UserManagement API).
+2026-01-29 17:38:12.675 +01:00 [INF] Creating user with email basit@yahoo.com
+2026-01-29 17:38:12.678 +01:00 [INF] Executed action UserManagement_API.Controllers.UsersController.Create (UserManagement API) in 21.1493ms
+2026-01-29 17:38:12.685 +01:00 [INF] Executed endpoint 'UserManagement_API.Controllers.UsersController.Create (UserManagement API)'
+2026-01-29 17:38:12.689 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateUserRequestDto -> User
+UserManagement_API.DTOs.Request.CreateUserRequestDto -> UserManagement_API.Models.User
+   at lambda_method11(Closure, Object, User, ResolutionContext)
+   at UserManagement_API.Services.UserService.CreateUserAsync(CreateUserRequestDto request) in C:\Users\HP\source\repos\UserManagement\UserManagement API\Services\UserService.cs:line 29
+   at UserManagement_API.Controllers.UsersController.Create(CreateUserRequestDto request) in C:\Users\HP\source\repos\UserManagement\UserManagement API\Controllers\UsersController.cs:line 48
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-29 17:38:12.748 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/Users/SignUp - 500 null text/plain; charset=utf-8 119.0572ms
+2026-01-29 17:41:22.340 +01:00 [INF] Now listening on: https://localhost:7145
+2026-01-29 17:41:22.512 +01:00 [INF] Now listening on: http://localhost:5218
+2026-01-29 17:41:22.671 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-29 17:41:22.681 +01:00 [INF] Hosting environment: Development
+2026-01-29 17:41:22.683 +01:00 [INF] Content root path: C:\Users\HP\source\repos\UserManagement\UserManagement API
+2026-01-29 17:41:24.631 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2026-01-29 17:41:27.238 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 2617.6204ms
+2026-01-29 17:41:27.398 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.js - null null
+2026-01-29 17:41:27.419 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-29 17:41:27.490 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2026-01-29 17:41:27.900 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.js - 200 null application/javascript;charset=utf-8 501.8114ms
+2026-01-29 17:41:27.908 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 489.2626ms
+2026-01-29 17:41:28.116 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 626.0038ms
+2026-01-29 17:41:28.401 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2026-01-29 17:41:28.642 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/favicon-32x32.png - null null
+2026-01-29 17:41:29.998 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1597.1122ms
+2026-01-29 17:41:30.021 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-01-29 17:41:30.155 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/favicon-32x32.png - 200 628 image/png 1512.4031ms
+2026-01-29 17:42:18.022 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/Users/SignUp - application/json 108
+2026-01-29 17:42:18.041 +01:00 [INF] Executing endpoint 'UserManagement_API.Controllers.UsersController.Create (UserManagement API)'
+2026-01-29 17:42:18.147 +01:00 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagement_API.DTOs.Response.UserResponseDto]] Create(UserManagement_API.DTOs.Request.CreateUserRequestDto) on controller UserManagement_API.Controllers.UsersController (UserManagement API).
+2026-01-29 17:42:19.294 +01:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-01-29 17:42:19.546 +01:00 [INF] Creating user with email basit@yahoo.com
+2026-01-29 17:42:23.543 +01:00 [INF] Executed DbCommand (78ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [FirstName], [LastName], [Password])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-01-29 17:42:23.658 +01:00 [INF] User created successfully with Id 10002
+2026-01-29 17:42:23.687 +01:00 [INF] Executed action UserManagement_API.Controllers.UsersController.Create (UserManagement API) in 5514.0599ms
+2026-01-29 17:42:23.694 +01:00 [INF] Executed endpoint 'UserManagement_API.Controllers.UsersController.Create (UserManagement API)'
+2026-01-29 17:42:23.705 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+User -> UserResponseDto
+UserManagement_API.Models.User -> UserManagement_API.DTOs.Response.UserResponseDto
+   at lambda_method80(Closure, Object, UserResponseDto, ResolutionContext)
+   at UserManagement_API.Services.UserService.CreateUserAsync(CreateUserRequestDto request) in C:\Users\HP\source\repos\UserManagement\UserManagement API\Services\UserService.cs:line 36
+   at UserManagement_API.Controllers.UsersController.Create(CreateUserRequestDto request) in C:\Users\HP\source\repos\UserManagement\UserManagement API\Controllers\UsersController.cs:line 48
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-29 17:42:23.876 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/Users/SignUp - 500 null text/plain; charset=utf-8 5854.5176ms
+2026-01-29 17:50:35.617 +01:00 [INF] Now listening on: https://localhost:7145
+2026-01-29 17:50:35.778 +01:00 [INF] Now listening on: http://localhost:5218
+2026-01-29 17:50:35.946 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-29 17:50:36.001 +01:00 [INF] Hosting environment: Development
+2026-01-29 17:50:36.022 +01:00 [INF] Content root path: C:\Users\HP\source\repos\UserManagement\UserManagement API
+2026-01-29 17:50:36.839 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2026-01-29 17:50:38.726 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 1891.8225ms
+2026-01-29 17:50:39.047 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.js - null null
+2026-01-29 17:50:39.056 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-29 17:50:39.100 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2026-01-29 17:50:40.383 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.js - 200 null application/javascript;charset=utf-8 1336.022ms
+2026-01-29 17:50:40.406 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 1349.7097ms
+2026-01-29 17:50:40.614 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1513.8904ms
+2026-01-29 17:50:45.144 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2026-01-29 17:50:45.280 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 135.2978ms
+2026-01-29 17:51:15.594 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/Users/SignUp - application/json 108
+2026-01-29 17:51:15.615 +01:00 [INF] Executing endpoint 'UserManagement_API.Controllers.UsersController.Create (UserManagement API)'
+2026-01-29 17:51:15.684 +01:00 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagement_API.DTOs.Response.UserResponseDto]] Create(UserManagement_API.DTOs.Request.CreateUserRequestDto) on controller UserManagement_API.Controllers.UsersController (UserManagement API).
+2026-01-29 17:51:16.181 +01:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-01-29 17:51:16.255 +01:00 [INF] Creating user with email basit@yahoo.com
+2026-01-29 17:51:18.092 +01:00 [INF] Executed DbCommand (100ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [FirstName], [LastName], [Password])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-01-29 17:51:18.170 +01:00 [INF] User created successfully with Id 10003
+2026-01-29 17:51:18.197 +01:00 [INF] Executed action UserManagement_API.Controllers.UsersController.Create (UserManagement API) in 2473.1504ms
+2026-01-29 17:51:18.213 +01:00 [INF] Executed endpoint 'UserManagement_API.Controllers.UsersController.Create (UserManagement API)'
+2026-01-29 17:51:18.233 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+User -> UserResponseDto
+UserManagement_API.Models.User -> UserManagement_API.DTOs.Response.UserResponseDto
+   at lambda_method80(Closure, Object, UserResponseDto, ResolutionContext)
+   at UserManagement_API.Services.UserService.CreateUserAsync(CreateUserRequestDto request) in C:\Users\HP\source\repos\UserManagement\UserManagement API\Services\UserService.cs:line 37
+   at UserManagement_API.Controllers.UsersController.Create(CreateUserRequestDto request) in C:\Users\HP\source\repos\UserManagement\UserManagement API\Controllers\UsersController.cs:line 48
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-29 17:51:18.394 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/Users/SignUp - 500 null text/plain; charset=utf-8 2800.1474ms
+2026-01-29 18:03:10.144 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-29 18:03:10.290 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 154.4433ms
+2026-01-29 18:03:14.351 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2026-01-29 18:03:14.565 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 213.4704ms
